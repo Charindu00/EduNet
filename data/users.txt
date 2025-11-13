@@ -1,0 +1,11 @@
+# EduNet User Credentials
+# Format: username:password:role
+# Roles: TEACHER, STUDENT, ADMIN
+
+teacher1:teacher123:TEACHER
+teacher2:teacher123:TEACHER
+student1:student123:STUDENT
+student2:student123:STUDENT
+student3:student123:STUDENT
+student4:student123:STUDENT
+admin1:admin123:ADMIN

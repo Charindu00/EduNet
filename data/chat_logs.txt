@@ -1,0 +1,331 @@
+========================================
+       EduNet Activity Log
+========================================
+
+Logs will appear here as the system runs.
+Format: [Timestamp] [Level] Message
+
+[2025-11-11 04:17:47] [INFO] All directories initialized
+[2025-11-11 04:17:47] [INFO] Logger initialized successfully
+[2025-11-11 04:17:47] [INFO] ==============================================
+[2025-11-11 04:17:47] [INFO]        EduNet Server Starting...           
+[2025-11-11 04:17:47] [INFO] ==============================================
+[2025-11-11 04:17:47] [INFO] Server started successfully on port 5000
+[2025-11-11 04:17:47] [INFO] Waiting for client connections...
+[2025-11-11 04:21:27] [INFO] Server shutting down...
+[2025-11-11 04:21:27] [INFO] Server stopped successfully
+[2025-11-11 04:22:51] [INFO] All directories initialized
+[2025-11-11 04:22:51] [INFO] Logger initialized successfully
+[2025-11-11 04:22:51] [INFO] ==============================================
+[2025-11-11 04:22:51] [INFO]        EduNet Server Starting...           
+[2025-11-11 04:22:51] [INFO] ==============================================
+[2025-11-11 04:22:52] [INFO] Server started successfully on port 5000
+[2025-11-11 04:22:52] [INFO] Waiting for client connections...
+[2025-11-11 04:23:11] [INFO] Server shutting down...
+[2025-11-11 04:23:11] [INFO] Server stopped successfully
+[2025-11-11 04:23:34] [INFO] All directories initialized
+[2025-11-11 04:23:34] [INFO] Logger initialized successfully
+[2025-11-11 04:23:34] [INFO] ==============================================
+[2025-11-11 04:23:34] [INFO]        EduNet Server Starting...           
+[2025-11-11 04:23:34] [INFO] ==============================================
+[2025-11-11 04:23:34] [INFO] Server started successfully on port 5000
+[2025-11-11 04:23:34] [INFO] Waiting for client connections...
+[2025-11-11 04:24:16] [INFO] Server shutting down...
+[2025-11-11 04:24:16] [INFO] Server stopped successfully
+[2025-11-11 04:24:29] [INFO] All directories initialized
+[2025-11-11 04:24:29] [INFO] Logger initialized successfully
+[2025-11-11 04:24:29] [INFO] ==============================================
+[2025-11-11 04:24:29] [INFO]        EduNet Server Starting...           
+[2025-11-11 04:24:29] [INFO] ==============================================
+[2025-11-11 04:24:29] [INFO] Server started successfully on port 5000
+[2025-11-11 04:24:29] [INFO] Waiting for client connections...
+[2025-11-11 04:24:31] [INFO] New connection from 127.0.0.1:56117
+[2025-11-11 04:24:31] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-11 04:24:31] [INFO] Loaded 7 users from file
+[2025-11-11 04:24:31] [INFO] User authenticated: teacher1 (Role: TEACHER)
+[2025-11-11 04:24:31] [INFO] ? User authenticated: teacher1 (Role: TEACHER)
+[2025-11-11 04:24:31] [INFO] User teacher1 authenticated successfully
+[2025-11-11 04:24:31] [CHAT] 2025-11-11 04:24:31 | CHAT_BROADCAST | SERVER -> ALL | teacher1 (TEACHER) has joined the chat
+[2025-11-11 04:24:31] [DEBUG] Routing message: CHAT_BROADCAST from teacher1
+[2025-11-11 04:24:31] [CHAT] 2025-11-11 04:24:31 | CHAT_BROADCAST | teacher1 -> ALL | Hello students! Welcome to EduNet!
+[2025-11-11 04:24:36] [DEBUG] Routing message: DISCONNECT from teacher1
+[2025-11-11 04:24:36] [INFO] User teacher1 requested disconnect
+[2025-11-11 04:24:36] [INFO] Cleaning up handler for teacher1
+[2025-11-11 04:24:36] [INFO] User teacher1 disconnected. Remaining: 0
+[2025-11-11 04:24:36] [CHAT] 2025-11-11 04:24:36 | DISCONNECT | SERVER -> ALL | teacher1 has left the chat
+[2025-11-11 04:30:30] [INFO] All directories initialized
+[2025-11-11 04:30:30] [INFO] Logger initialized successfully
+[2025-11-11 04:30:30] [INFO] ==============================================
+[2025-11-11 04:30:30] [INFO]        EduNet Server Starting...           
+[2025-11-11 04:30:30] [INFO] ==============================================
+[2025-11-11 04:30:30] [INFO] Server started successfully on port 5000
+[2025-11-11 04:30:30] [INFO] Waiting for client connections...
+[2025-11-11 19:02:03] [INFO] All directories initialized
+[2025-11-11 19:02:03] [INFO] Logger initialized successfully
+[2025-11-11 19:02:03] [INFO] ==============================================
+[2025-11-11 19:02:03] [INFO]        EduNet Server Starting...           
+[2025-11-11 19:02:03] [INFO] ==============================================
+[2025-11-11 19:02:03] [INFO] Server started successfully on port 5000
+[2025-11-11 19:02:03] [INFO] Waiting for client connections...
+[2025-11-11 19:02:03] [INFO] File Transfer Server started on port 5001
+[2025-11-11 19:36:26] [INFO] File transfer connection from 127.0.0.1
+[2025-11-11 19:36:26] [INFO] File transfer request: UPLOAD from teacher1
+[2025-11-11 19:36:26] [FILE] teacher1 is uploading: test-lecture.txt (627 bytes)
+[2025-11-11 19:36:26] [FILE] Starting upload: test-lecture.txt (627 bytes)
+[2025-11-11 19:36:26] [FILE] Upload complete: test-lecture.txt from teacher1
+[2025-11-11 19:36:26] [CHAT] 2025-11-11 19:36:26 | FILE_NOTIFICATION | SERVER -> ALL | ? New lecture available: test-lecture.txt (uploaded by teacher1)
+[2025-11-11 19:36:26] [FILE] Upload successful: test-lecture.txt
+[2025-11-11 19:36:28] [INFO] File transfer connection from 127.0.0.1
+[2025-11-11 19:36:28] [INFO] File transfer request: DOWNLOAD from student1
+[2025-11-11 19:36:28] [FILE] student1 is downloading: test-lecture.txt
+[2025-11-11 19:36:28] [FILE] Starting download: test-lecture.txt (627 bytes)
+[2025-11-11 19:36:28] [FILE] Download successful: test-lecture.txt
+[2025-11-11 19:36:28] [FILE] Download complete: test-lecture.txt to student1
+[2025-11-11 19:51:02] [INFO] All directories initialized
+[2025-11-11 19:51:02] [INFO] Logger initialized successfully
+[2025-11-11 19:51:02] [INFO] ==============================================
+[2025-11-11 19:51:02] [INFO]        EduNet Server Starting...           
+[2025-11-11 19:51:02] [INFO] ==============================================
+[2025-11-11 19:51:02] [ERROR] Failed to start server on port 5000 - Exception: Address already in use: bind
+[2025-11-11 19:51:02] [INFO] Server shutting down...
+[2025-11-11 19:51:02] [INFO] Server stopped successfully
+[2025-11-11 19:51:33] [INFO] All directories initialized
+[2025-11-11 19:51:33] [INFO] Logger initialized successfully
+[2025-11-11 19:51:33] [INFO] ==============================================
+[2025-11-11 19:51:33] [INFO]        EduNet Server Starting...           
+[2025-11-11 19:51:33] [INFO] ==============================================
+[2025-11-11 19:51:34] [INFO] Server started successfully on port 5000
+[2025-11-11 19:51:34] [INFO] Waiting for client connections...
+[2025-11-11 19:51:34] [INFO] File Transfer Server started on port 5001
+[2025-11-11 19:51:34] [INFO] UDP Announcement Server started on port 6000
+[2025-11-11 19:51:34] [INFO] UDP server listening for announcements...
+[2025-11-11 19:52:05] [INFO] Server shutting down...
+[2025-11-11 19:52:57] [INFO] All directories initialized
+[2025-11-11 19:52:57] [INFO] Logger initialized successfully
+[2025-11-11 19:52:57] [INFO] ==============================================
+[2025-11-11 19:52:57] [INFO]        EduNet Server Starting...           
+[2025-11-11 19:52:57] [INFO] ==============================================
+[2025-11-11 19:52:57] [INFO] Server started successfully on port 5000
+[2025-11-11 19:52:57] [INFO] Waiting for client connections...
+[2025-11-11 19:52:57] [INFO] File Transfer Server started on port 5001
+[2025-11-11 19:52:57] [INFO] UDP Announcement Server started on port 6000
+[2025-11-11 19:52:57] [INFO] UDP server listening for announcements...
+[2025-11-11 20:23:37] [INFO] All directories initialized
+[2025-11-11 20:23:37] [INFO] Logger initialized successfully
+[2025-11-11 20:23:37] [INFO] ==============================================
+[2025-11-11 20:23:37] [INFO]        EduNet Server Starting...           
+[2025-11-11 20:23:37] [INFO] ==============================================
+[2025-11-11 20:23:37] [INFO] Server started successfully on port 5000
+[2025-11-11 20:23:37] [INFO] Waiting for client connections...
+[2025-11-11 20:23:37] [INFO] File Transfer Server started on port 5001
+[2025-11-11 20:23:37] [INFO] UDP Announcement Server started on port 6000
+[2025-11-11 20:23:37] [INFO] UDP server listening for announcements...
+[2025-11-12 13:27:42] [INFO] All directories initialized
+[2025-11-12 13:27:42] [INFO] Logger initialized successfully
+[2025-11-12 13:27:42] [INFO] ==============================================
+[2025-11-12 13:27:42] [INFO]        EduNet Server Starting...           
+[2025-11-12 13:27:42] [INFO] ==============================================
+[2025-11-12 13:27:42] [INFO] Server started successfully on port 5000
+[2025-11-12 13:27:42] [INFO] Waiting for client connections...
+[2025-11-12 13:27:42] [INFO] File Transfer Server started on port 5001
+[2025-11-12 13:27:42] [INFO] UDP Announcement Server started on port 6000
+[2025-11-12 13:27:42] [INFO] UDP server listening for announcements...
+[2025-11-12 13:39:58] [INFO] New connection from 127.0.0.1:63887
+[2025-11-12 13:39:58] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-12 13:39:58] [INFO] Loaded 7 users from file
+[2025-11-12 13:39:58] [INFO] User authenticated: teacher1 (Role: TEACHER)
+[2025-11-12 13:39:58] [INFO] ? User authenticated: teacher1 (Role: TEACHER)
+[2025-11-12 13:39:58] [INFO] User teacher1 authenticated successfully
+[2025-11-12 13:39:58] [CHAT] 2025-11-12 13:39:58 | CHAT_BROADCAST | SERVER -> ALL | teacher1 (TEACHER) has joined the chat
+[2025-11-12 13:55:30] [INFO] File transfer connection from 127.0.0.1
+[2025-11-12 13:55:30] [FILE] Starting upload: 224039F tutorial 2.pdf (133.44 KB)
+[2025-11-12 13:55:30] [INFO] File transfer request: UPLOAD from teacher1
+[2025-11-12 13:55:30] [FILE] teacher1 is uploading: 224039F tutorial 2.pdf (133.44 KB)
+[2025-11-12 13:55:30] [FILE] Upload complete: 224039F tutorial 2.pdf from teacher1
+[2025-11-12 13:55:30] [FILE] Upload successful: 224039F tutorial 2.pdf
+[2025-11-12 13:55:30] [CHAT] 2025-11-12 13:55:30 | FILE_NOTIFICATION | SERVER -> ALL | ? New lecture available: 224039F tutorial 2.pdf (uploaded by teacher1)
+[2025-11-12 13:58:28] [DEBUG] UDP: Received from /127.0.0.1:61042
+[2025-11-12 13:58:28] [INFO] UDP: Broadcasting announcement from /127.0.0.1
+[2025-11-12 13:58:28] [ADMIN] ANNOUNCEMENT: The lecture is postponed to the next week
+[2025-11-12 13:58:28] [INFO] UDP: Announcement delivered to 0 students (0 failed)
+[2025-11-12 14:04:14] [INFO] New connection from 127.0.0.1:58930
+[2025-11-12 14:04:14] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-12 14:04:14] [INFO] Loaded 7 users from file
+[2025-11-12 14:04:14] [INFO] User authenticated: student1 (Role: STUDENT)
+[2025-11-12 14:04:14] [INFO] ? User authenticated: student1 (Role: STUDENT)
+[2025-11-12 14:04:14] [INFO] User student1 authenticated successfully
+[2025-11-12 14:04:14] [CHAT] 2025-11-12 14:04:14 | CHAT_BROADCAST | SERVER -> ALL | student1 (STUDENT) has joined the chat
+[2025-11-12 14:04:15] [DEBUG] UDP: Received from /127.0.0.1:65386
+[2025-11-12 14:04:15] [INFO] UDP: Student registered: /127.0.0.1:65386
+[2025-11-12 14:05:34] [INFO] File transfer connection from 127.0.0.1
+[2025-11-12 14:05:34] [INFO] File transfer request: DOWNLOAD from student1
+[2025-11-12 14:05:34] [FILE] student1 is downloading: 224039F_tutorial_2.pdf
+[2025-11-12 14:05:34] [FILE] Starting download: 224039F_tutorial_2.pdf (133.44 KB)
+[2025-11-12 14:05:34] [FILE] Download complete: 224039F_tutorial_2.pdf to student1
+[2025-11-12 14:05:34] [FILE] Download successful: 224039F_tutorial_2.pdf
+[2025-11-12 14:06:25] [DEBUG] Routing message: CHAT_TO_TEACHER from student1
+[2025-11-12 14:06:25] [CHAT] 2025-11-12 14:06:25 | CHAT_TO_TEACHER | student1 -> TEACHER | hello teacher
+[2025-11-12 14:18:11] [DEBUG] UDP: Received from /127.0.0.1:54623
+[2025-11-12 14:18:11] [INFO] UDP: Broadcasting announcement from /127.0.0.1
+[2025-11-12 14:18:11] [ADMIN] ANNOUNCEMENT: Assignment 2 has uploaded!
+[2025-11-12 14:18:11] [INFO] UDP: Announcement delivered to 1 students (0 failed)
+[2025-11-12 14:20:23] [INFO] New connection from 127.0.0.1:51331
+[2025-11-12 14:20:23] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-12 14:20:24] [INFO] Loaded 7 users from file
+[2025-11-12 14:20:24] [ERROR] Authentication failed for user: admin
+[2025-11-12 14:20:24] [ERROR] Invalid credentials for user: admin
+[2025-11-12 14:20:24] [ERROR] Authentication failed for 127.0.0.1
+[2025-11-12 14:20:36] [INFO] New connection from 127.0.0.1:63546
+[2025-11-12 14:20:36] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-12 14:20:36] [INFO] Loaded 7 users from file
+[2025-11-12 14:20:36] [INFO] User authenticated: admin1 (Role: ADMIN)
+[2025-11-12 14:20:36] [INFO] ? User authenticated: admin1 (Role: ADMIN)
+[2025-11-12 14:20:36] [INFO] User admin1 authenticated successfully
+[2025-11-12 14:20:36] [CHAT] 2025-11-12 14:20:36 | CHAT_BROADCAST | SERVER -> ALL | admin1 (ADMIN) has joined the chat
+[2025-11-12 14:48:48] [DEBUG] Routing message: DISCONNECT from teacher1
+[2025-11-12 14:48:48] [INFO] User teacher1 requested disconnect
+[2025-11-12 14:48:48] [INFO] Cleaning up handler for teacher1
+[2025-11-12 14:48:48] [INFO] User teacher1 disconnected. Remaining: 2
+[2025-11-12 14:48:48] [CHAT] 2025-11-12 14:48:48 | DISCONNECT | SERVER -> ALL | teacher1 has left the chat
+[2025-11-12 14:48:55] [DEBUG] UDP: Received from /127.0.0.1:65386
+[2025-11-12 14:48:55] [INFO] UDP: Student unregistered: /127.0.0.1:65386
+[2025-11-12 14:48:55] [DEBUG] Routing message: DISCONNECT from student1
+[2025-11-12 14:48:55] [INFO] User student1 requested disconnect
+[2025-11-12 14:48:55] [INFO] Cleaning up handler for student1
+[2025-11-12 14:48:55] [INFO] User student1 disconnected. Remaining: 1
+[2025-11-12 14:48:55] [CHAT] 2025-11-12 14:48:55 | DISCONNECT | SERVER -> ALL | student1 has left the chat
+[2025-11-12 14:50:04] [DEBUG] Routing message: DISCONNECT from admin1
+[2025-11-12 14:50:04] [INFO] User admin1 requested disconnect
+[2025-11-12 14:50:04] [INFO] Cleaning up handler for admin1
+[2025-11-12 14:50:04] [INFO] User admin1 disconnected. Remaining: 0
+[2025-11-12 14:50:04] [CHAT] 2025-11-12 14:50:04 | DISCONNECT | SERVER -> ALL | admin1 has left the chat
+[2025-11-12 15:04:44] [INFO] All directories initialized
+[2025-11-12 15:04:44] [INFO] Logger initialized successfully
+[2025-11-12 15:04:44] [INFO] ==============================================
+[2025-11-12 15:04:44] [INFO]        EduNet Server Starting...           
+[2025-11-12 15:04:44] [INFO] ==============================================
+[2025-11-12 15:04:44] [INFO] Server started successfully on port 5000
+[2025-11-12 15:04:44] [INFO] Waiting for client connections...
+[2025-11-12 15:04:44] [INFO] File Transfer Server started on port 5001
+[2025-11-12 15:04:44] [INFO] UDP Announcement Server started on port 6000
+[2025-11-12 15:04:44] [INFO] UDP server listening for announcements...
+[2025-11-13 22:15:12] [INFO] All directories initialized
+[2025-11-13 22:15:12] [INFO] Logger initialized successfully
+[2025-11-13 22:15:12] [INFO] ==============================================
+[2025-11-13 22:15:12] [INFO]        EduNet Server Starting...           
+[2025-11-13 22:15:12] [INFO] ==============================================
+[2025-11-13 22:15:12] [INFO] Server started successfully on port 5000
+[2025-11-13 22:15:12] [INFO] Waiting for client connections...
+[2025-11-13 22:15:12] [INFO] File Transfer Server started on port 5001
+[2025-11-13 22:15:12] [INFO] UDP Announcement Server started on port 6000
+[2025-11-13 22:15:12] [INFO] UDP server listening for announcements...
+[2025-11-13 22:20:44] [INFO] New connection from 127.0.0.1:61051
+[2025-11-13 22:20:44] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-13 22:20:44] [INFO] Loaded 7 users from file
+[2025-11-13 22:20:44] [INFO] User authenticated: teacher1 (Role: TEACHER)
+[2025-11-13 22:20:44] [INFO] ? User authenticated: teacher1 (Role: TEACHER)
+[2025-11-13 22:20:44] [INFO] User teacher1 authenticated successfully
+[2025-11-13 22:20:44] [CHAT] 2025-11-13 22:20:44 | CHAT_BROADCAST | SERVER -> ALL | teacher1 (TEACHER) has joined the chat
+[2025-11-13 22:22:01] [INFO] New connection from 127.0.0.1:61058
+[2025-11-13 22:22:01] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-13 22:22:01] [INFO] Loaded 7 users from file
+[2025-11-13 22:22:01] [ERROR] Authentication failed for user: student1
+[2025-11-13 22:22:01] [ERROR] Invalid credentials for user: student1
+[2025-11-13 22:22:01] [ERROR] Authentication failed for 127.0.0.1
+[2025-11-13 22:22:15] [INFO] New connection from 127.0.0.1:64867
+[2025-11-13 22:22:15] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-13 22:22:15] [INFO] Loaded 7 users from file
+[2025-11-13 22:22:15] [INFO] User authenticated: student1 (Role: STUDENT)
+[2025-11-13 22:22:15] [INFO] ? User authenticated: student1 (Role: STUDENT)
+[2025-11-13 22:22:15] [INFO] User student1 authenticated successfully
+[2025-11-13 22:22:15] [CHAT] 2025-11-13 22:22:15 | CHAT_BROADCAST | SERVER -> ALL | student1 (STUDENT) has joined the chat
+[2025-11-13 22:22:15] [DEBUG] UDP: Received from /127.0.0.1:63398
+[2025-11-13 22:22:15] [INFO] UDP: Student registered: /127.0.0.1:63398
+[2025-11-13 22:22:44] [INFO] File transfer connection from 127.0.0.1
+[2025-11-13 22:22:44] [INFO] File transfer request: UPLOAD from teacher1
+[2025-11-13 22:22:44] [FILE] Starting upload: 224039F.pdf (137.35 KB)
+[2025-11-13 22:22:44] [FILE] teacher1 is uploading: 224039F.pdf (137.35 KB)
+[2025-11-13 22:22:44] [FILE] Upload complete: 224039F.pdf from teacher1
+[2025-11-13 22:22:44] [FILE] Upload successful: 224039F.pdf
+[2025-11-13 22:22:44] [CHAT] 2025-11-13 22:22:44 | FILE_NOTIFICATION | SERVER -> ALL | ? New lecture available: 224039F.pdf (uploaded by teacher1)
+[2025-11-13 22:23:11] [INFO] File transfer connection from 127.0.0.1
+[2025-11-13 22:23:11] [INFO] File transfer request: DOWNLOAD from student1
+[2025-11-13 22:23:11] [FILE] student1 is downloading: 224039F.pdf
+[2025-11-13 22:23:11] [FILE] Starting download: 224039F.pdf (137.35 KB)
+[2025-11-13 22:23:11] [FILE] Download successful: 224039F.pdf
+[2025-11-13 22:23:11] [FILE] Download complete: 224039F.pdf to student1
+[2025-11-13 22:23:31] [DEBUG] Routing message: CHAT_BROADCAST from teacher1
+[2025-11-13 22:23:31] [CHAT] 2025-11-13 22:23:31 | CHAT_BROADCAST | teacher1 -> ALL | hello students
+[2025-11-13 22:23:53] [DEBUG] Routing message: CHAT_TO_TEACHER from student1
+[2025-11-13 22:23:53] [CHAT] 2025-11-13 22:23:53 | CHAT_TO_TEACHER | student1 -> TEACHER | good morning teacher!
+[2025-11-13 22:24:26] [INFO] New connection from 127.0.0.1:64883
+[2025-11-13 22:24:26] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-13 22:24:26] [INFO] Loaded 7 users from file
+[2025-11-13 22:24:26] [INFO] User authenticated: student2 (Role: STUDENT)
+[2025-11-13 22:24:26] [INFO] ? User authenticated: student2 (Role: STUDENT)
+[2025-11-13 22:24:26] [INFO] User student2 authenticated successfully
+[2025-11-13 22:24:26] [CHAT] 2025-11-13 22:24:26 | CHAT_BROADCAST | SERVER -> ALL | student2 (STUDENT) has joined the chat
+[2025-11-13 22:24:27] [DEBUG] UDP: Received from /127.0.0.1:64588
+[2025-11-13 22:24:27] [INFO] UDP: Student registered: /127.0.0.1:64588
+[2025-11-13 22:25:57] [INFO] File transfer connection from 127.0.0.1
+[2025-11-13 22:25:57] [INFO] File transfer request: DOWNLOAD from student2
+[2025-11-13 22:25:57] [FILE] student2 is downloading: 224039F.pdf
+[2025-11-13 22:25:57] [FILE] Starting download: 224039F.pdf (137.35 KB)
+[2025-11-13 22:25:57] [FILE] Download complete: 224039F.pdf to student2
+[2025-11-13 22:25:57] [FILE] Download successful: 224039F.pdf
+[2025-11-13 22:27:03] [DEBUG] Routing message: CHAT_BROADCAST from teacher1
+[2025-11-13 22:27:03] [CHAT] 2025-11-13 22:27:03 | CHAT_BROADCAST | teacher1 -> ALL | hello
+[2025-11-13 22:27:25] [DEBUG] UDP: Received from /127.0.0.1:55214
+[2025-11-13 22:27:25] [INFO] UDP: Broadcasting announcement from /127.0.0.1
+[2025-11-13 22:27:25] [ADMIN] ANNOUNCEMENT: hello!!
+[2025-11-13 22:27:25] [INFO] UDP: Announcement delivered to 2 students (0 failed)
+[2025-11-13 22:28:14] [DEBUG] UDP: Received from /127.0.0.1:62543
+[2025-11-13 22:28:14] [INFO] UDP: Broadcasting announcement from /127.0.0.1
+[2025-11-13 22:28:14] [ADMIN] ANNOUNCEMENT: hello!
+[2025-11-13 22:28:14] [INFO] UDP: Announcement delivered to 2 students (0 failed)
+[2025-11-13 22:30:04] [DEBUG] Routing message: CHAT_TO_TEACHER from student2
+[2025-11-13 22:30:04] [CHAT] 2025-11-13 22:30:04 | CHAT_TO_TEACHER | student2 -> TEACHER | hello teacher
+[2025-11-13 22:30:47] [DEBUG] Routing message: CHAT_PRIVATE from teacher1
+[2025-11-13 22:30:47] [CHAT] 2025-11-13 22:30:47 | CHAT_PRIVATE | teacher1 -> student2 | yes?
+[2025-11-13 22:32:13] [DEBUG] Routing message: CHAT_TO_TEACHER from student2
+[2025-11-13 22:32:13] [CHAT] 2025-11-13 22:32:13 | CHAT_TO_TEACHER | student2 -> TEACHER | hello
+[2025-11-13 22:58:57] [DEBUG] UDP: Received from /127.0.0.1:63398
+[2025-11-13 22:58:57] [DEBUG] Routing message: DISCONNECT from student1
+[2025-11-13 22:58:57] [INFO] UDP: Student unregistered: /127.0.0.1:63398
+[2025-11-13 22:58:57] [INFO] User student1 requested disconnect
+[2025-11-13 22:58:57] [INFO] Cleaning up handler for student1
+[2025-11-13 22:58:57] [INFO] User student1 disconnected. Remaining: 2
+[2025-11-13 22:58:57] [CHAT] 2025-11-13 22:58:57 | DISCONNECT | SERVER -> ALL | student1 has left the chat
+[2025-11-13 23:23:45] [INFO] New connection from 127.0.0.1:50170
+[2025-11-13 23:23:46] [DEBUG] Streams set up for client: /127.0.0.1
+[2025-11-13 23:23:46] [INFO] Loaded 7 users from file
+[2025-11-13 23:23:46] [INFO] User authenticated: student1 (Role: STUDENT)
+[2025-11-13 23:23:46] [INFO] ? User authenticated: student1 (Role: STUDENT)
+[2025-11-13 23:23:46] [INFO] User student1 authenticated successfully
+[2025-11-13 23:23:46] [CHAT] 2025-11-13 23:23:46 | CHAT_BROADCAST | SERVER -> ALL | student1 (STUDENT) has joined the chat
+[2025-11-13 23:23:46] [DEBUG] UDP: Received from /127.0.0.1:65525
+[2025-11-13 23:23:46] [INFO] UDP: Student registered: /127.0.0.1:65525
+[2025-11-13 23:24:14] [DEBUG] UDP: Received from /127.0.0.1:62700
+[2025-11-13 23:24:14] [INFO] UDP: Broadcasting announcement from /127.0.0.1
+[2025-11-13 23:24:14] [ADMIN] ANNOUNCEMENT: hello
+[2025-11-13 23:24:15] [INFO] UDP: Announcement delivered to 2 students (0 failed)
+[2025-11-13 23:24:26] [DEBUG] UDP: Received from /127.0.0.1:60976
+[2025-11-13 23:24:27] [INFO] UDP: Broadcasting announcement from /127.0.0.1
+[2025-11-13 23:24:27] [ADMIN] ANNOUNCEMENT: hi
+[2025-11-13 23:24:27] [INFO] UDP: Announcement delivered to 2 students (0 failed)
+[2025-11-13 23:45:29] [DEBUG] Routing message: DISCONNECT from teacher1
+[2025-11-13 23:45:29] [INFO] User teacher1 requested disconnect
+[2025-11-13 23:45:29] [INFO] Cleaning up handler for teacher1
+[2025-11-13 23:45:29] [INFO] User teacher1 disconnected. Remaining: 2
+[2025-11-13 23:45:29] [CHAT] 2025-11-13 23:45:29 | DISCONNECT | SERVER -> ALL | teacher1 has left the chat
+[2025-11-13 23:45:34] [DEBUG] UDP: Received from /127.0.0.1:64588
+[2025-11-13 23:45:34] [INFO] UDP: Student unregistered: /127.0.0.1:64588
+[2025-11-13 23:45:34] [DEBUG] Routing message: DISCONNECT from student2
+[2025-11-13 23:45:34] [INFO] User student2 requested disconnect
+[2025-11-13 23:45:34] [INFO] Cleaning up handler for student2
+[2025-11-13 23:45:34] [INFO] User student2 disconnected. Remaining: 1
+[2025-11-13 23:45:34] [CHAT] 2025-11-13 23:45:34 | DISCONNECT | SERVER -> ALL | student2 has left the chat
+[2025-11-13 23:52:46] [INFO] Client student1 disconnected (socket closed)
+[2025-11-13 23:52:46] [INFO] Cleaning up handler for student1
+[2025-11-13 23:52:46] [INFO] User student1 disconnected. Remaining: 0
+[2025-11-13 23:52:46] [CHAT] 2025-11-13 23:52:46 | DISCONNECT | SERVER -> ALL | student1 has left the chat

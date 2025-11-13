@@ -1,0 +1,26 @@
+Introduction to Network Programming
+====================================
+
+This lecture covers the fundamentals of network programming in Java:
+
+1. TCP Sockets
+   - Connection-oriented communication
+   - Reliable data transfer
+   - Stream-based I/O
+
+2. UDP Sockets
+   - Connectionless communication
+   - Fast but unreliable
+   - Datagram-based
+
+3. Multithreading
+   - Handling multiple clients
+   - Thread-safe collections
+   - Synchronization
+
+4. File Transfer
+   - Binary data streaming
+   - Progress tracking
+   - Buffer management
+
+This file demonstrates a successful file transfer implementation!

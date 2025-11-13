@@ -1,0 +1,27 @@
+@"
+# Compiled files
+bin/
+*.class
+
+# IDE files
+.classpath
+.project
+.settings/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*~
+*.bak
+*.swp
+temp/
+tmp/
+
+# Downloaded test files
+downloaded-*.txt
+"@ |
